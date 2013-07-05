@@ -1,0 +1,36 @@
+Ignore bundler config.
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+/config/database.yml
+
+# Ignore ruby
+.ruby-version
+.ruby-gemset
+
+# Ignore all OSX files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Ignore all Intellij files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Ignore RVM file
+.rvmrc
+
+# Ignore zeus socket
+.zeus.sock/
